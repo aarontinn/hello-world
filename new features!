@@ -5,5 +5,7 @@ class Newshit:
   def get(self):
     print(self.progress, self.time)
 
-x = Newshit( 'finite', 99)
-x.get()
+if __name__ == __main__:
+  x = Newshit( 'finite', 99)
+  x.get()
+
