@@ -1,0 +1,9 @@
+class Newshit:
+  def __init__(self, progress = 'finite', time = None)
+    self.progress = progress
+    self.time = time
+  def get(self):
+    print(self.progress, self.time)
+
+x = Newshit( 'finite', 99)
+x.get()
