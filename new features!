@@ -1,0 +1,11 @@
+class Newshit:
+  def __init__(self, progress = 'finite', time = None)
+    self.progress = progress
+    self.time = time
+  def get(self):
+    print(self.progress, self.time)
+
+if __name__ == __main__:
+  x = Newshit( 'finite', 99)
+  x.get()
+
